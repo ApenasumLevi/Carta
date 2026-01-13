@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Um Presente 💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="tela-inicial" class="tela ativa">
+    <h1>💜 Você recebeu um presente 💜</h1>
+    <p>Quer abrir?</p>
+    <div class="botoes">
+      <button onclick="abrirCarta()">Sim</button>
+      <button onclick="recusar()">Não</button>
+    </div>
+  </div>
+
+  <div id="tela-nao" class="tela">
+    <p>
+      Eu passei dois dias programando isso<br>
+      pra você recusar?<br><br>
+      Volta lá e abre 😭🥀
+    </p>
+    <button onclick="voltar()">Tá bom...</button>
+  </div>
+
+  <div id="tela-carta" class="tela carta">
+    <div class="pagina">
+      <h2>💌</h2>
+      <p>
+        Desde que você apareceu,<br>
+        tudo ficou mais leve.
+      </p>
+    </div>
+
+    <div class="pagina">
+      <p>
+        Cada detalhe seu<br>
+        me faz querer ficar.
+      </p>
+    </div>
+
+    <div class="pagina">
+      <p>
+        Esse é só um jeitinho simples<br>
+        de dizer que você é especial 💜
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
